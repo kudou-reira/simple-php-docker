@@ -17,5 +17,9 @@
 				return $data;
 			}
 		}
+
+		public function insert($query, $params=array())  {
+			echo $params;
+		}
 	}
 ?>
