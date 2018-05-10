@@ -11,6 +11,8 @@
 
 	// echo("this is server request method".$_SERVER['REQUEST_METHOD'])
 
+	$db = new DB("127.0.0.1", "dockerTest", "root", "docker");
+
 
 	$request_body = file_get_contents('php://input');
 	print($request_body);
