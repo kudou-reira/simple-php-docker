@@ -19,7 +19,7 @@
 		}
 
 		public function insert($query, $params=array())  {
-			
+			echo $params;
 		}
 	}
 ?>
