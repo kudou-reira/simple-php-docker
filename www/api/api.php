@@ -1,6 +1,5 @@
 <?php
 	header("Content-Type:application/json");
-	require "data.php";
 
 	if(!empty($_GET['name']))
 	{
